@@ -6,8 +6,7 @@ Type=Service
 
 X-Plasma-API=javascript
 X-Plasma-MainScript=code/main.js
-X-KWin-Config-UI=ui/config.ui
-
+X-KDE-ConfigModule=kwin/effects/configs/kcm_kwin4_genericscripted
 
 X-KDE-ServiceTypes=KWin/Script
 

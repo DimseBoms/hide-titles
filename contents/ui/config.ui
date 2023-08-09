@@ -4,19 +4,19 @@
  <widget class="QWidget" name="Config">
   <layout class="QVBoxLayout" name="verticalLayout">
    <item>
-    <widget class="QCheckBox" name="enabled">
-     <property name="text">
-      <string>Enable hiding titlebar when maximized on primary screen</string>
-     </property>
-    </widget>
-   </item>
-   <item>
     <widget class="QLabel" name="label">
      <property name="text">
       <string>This script will remove the titlebar of maximized windows on the primary screen, as defined in the System Settings.</string>
      </property>
      <property name="wordWrap">
       <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QCheckBox" name="enabled">
+     <property name="text">
+      <string>Only hide titlebar on primary screen</string>
      </property>
     </widget>
    </item>
