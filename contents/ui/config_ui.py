@@ -18,9 +18,9 @@ class Ui_Config(object):
         self.label.setWordWrap(True)
         self.label.setObjectName("label")
         self.verticalLayout.addWidget(self.label)
-        self.enabled = QtWidgets.QCheckBox(parent=Config)
-        self.enabled.setObjectName("enabled")
-        self.verticalLayout.addWidget(self.enabled)
+        self.primaryOnly = QtWidgets.QCheckBox(parent=Config)
+        self.primaryOnly.setObjectName("primaryOnly")
+        self.verticalLayout.addWidget(self.primaryOnly)
         spacerItem = QtWidgets.QSpacerItem(20, 40, QtWidgets.QSizePolicy.Policy.Minimum, QtWidgets.QSizePolicy.Policy.Expanding)
         self.verticalLayout.addItem(spacerItem)
 
@@ -29,5 +29,5 @@ class Ui_Config(object):
 
     def retranslateUi(self, Config):
         _translate = QtCore.QCoreApplication.translate
-        self.label.setText(_translate("Config", "This script will remove the titlebar of maximized windows on the primary screen, as defined in the System Settings."))
-        self.enabled.setText(_translate("Config", "Only hide titlebar on primary screen"))
+        self.label.setText(_translate("Config", "This script will remove the titlebar of maximized windows."))
+        self.primaryOnly.setText(_translate("Config", "Only remove titlebar for windows on primary screen"))

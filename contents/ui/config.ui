@@ -6,7 +6,7 @@
    <item>
     <widget class="QLabel" name="label">
      <property name="text">
-      <string>This script will remove the titlebar of maximized windows on the primary screen, as defined in the System Settings.</string>
+      <string>This script will remove the titlebar of maximized windows.</string>
      </property>
      <property name="wordWrap">
       <bool>true</bool>
@@ -14,9 +14,9 @@
     </widget>
    </item>
    <item>
-    <widget class="QCheckBox" name="enabled">
+    <widget class="QCheckBox" name="primaryOnly">
      <property name="text">
-      <string>Only hide titlebar on primary screen</string>
+      <string>Only remove titlebar for windows on primary screen</string>
      </property>
     </widget>
    </item>
@@ -38,4 +38,3 @@
  <resources/>
  <connections/>
 </ui>
-
