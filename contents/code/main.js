@@ -61,5 +61,5 @@ function Config() {
 }
 
 Config.prototype.allowed = function(client) {
-    return this._bannedClients.indexOf(client.resourceClass.toString()) < 0;
+    return this._bannedClients.indexOf(client.resourceClass.toString()) < 0 && client.screen == 0;
 }
